@@ -5,10 +5,21 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 40px;
+  padding: 20px;
+  overflow: hidden;
+
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKAUfkurtDaw5YVD47YL4R4MIZPKTR3RHhdg&s');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+
 }
+
 h1{
   text-align: center;
+  background-color: antiquewhite;
 }
 label{
   display: block;
@@ -74,4 +85,50 @@ button:hover{
   color: red;
   font-size: 0.9rem;
   margin-top: 5px;
+}
+
+.review-list {
+  /*background-color: rgba(255, 255, 255, 0.8); /* light glass effect */
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  max-width: 700px;
+  width: 90%;
+  margin: 30px auto;
+}
+
+.review-list h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 28px;
+  color: #333;
+}
+
+/*.review-list ul {
+  list-style-type: none;
+  padding: 0;
+}*/
+
+.reviews-card {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-left: 5px solid #7b68ee;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+
+.reviews-card strong {
+  font-weight: bold;
+  color: #2d2d2d;
+}
+
+.reviews-card em {
+  font-style: italic;
+  color: #5a5a5a;
+}
+
+.reviews-card p {
+  margin-top: 10px;
+  color: #444;
 }
